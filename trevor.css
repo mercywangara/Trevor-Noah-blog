@@ -28,7 +28,7 @@ body{
 }
 
 .topimage{
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("photos/BCK6.jpg");
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("blog_images/BCK6.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -229,7 +229,7 @@ body{
     display: flex;
     }
 .inviteimg{
-    background-image: url(" photos/NOVEL13.jpg");
+    background-image: url(" blog_images/NOVEL13.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

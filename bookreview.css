@@ -1,338 +1,339 @@
+
 body{
-    margin: 0%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: 100%;
- }
- 
- 
- 
- 
- .active{
-    color: white;
-    font-size: 30px;
-    background-color: rgb(0, 0, 0, 0.6);
-    border-radius: 50px;
-    text-decoration: none;
-    padding:25px ;
-  
- }
- 
- 
- .active:hover{
-    color: black;
-    background-color:rgb(226, 207, 207);
-    transition: 0.7s;
- }
- .navbar{
-    background-color: rgb(0, 0, 0, 0.2);
-    padding: 30px;
-    display: flex;
-    justify-content: flex-end;
-    word-spacing: 20px;
-    position: sticky;
-    z-index: 999;
-    top: 0;
-   
- 
- 
-    a{
-        text-decoration: none;
-        word-spacing: 20px;
-        font-size: 15px;
-        color: black;
-    }
-    a:hover{
-        transform: scale(2s);
-        color :white;
-      
-    }
- }
- 
- 
- .topimage{
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("photos/BCK6.jpg");
+    margin: 0;
+    font-family: poppins;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
-    width: 100%;
- }
- 
- 
- .topimage h1{
-    color: rgb(255, 255, 255);
-    font-size: 100px;
-    position: absolute;
-    top: 7cm;
-    left: 15cm;
-    letter-spacing: 2px;
- }
- 
- 
- .qoutes{
-    background-color: #008080;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.8;
+    color: #333;
+    overflow-x: hidden;
+
+}
+@font-face {
+  font-family: poppins;
+  src: url(fonts/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: typewriter;
+  src: url(fonts/TypewriterSerial\ Regular.ttf);
+}
+@font-face {
+    font-family:mona ;
+    src: url(fonts/MonaSans-Italic-VariableFont_wdth\,wght.ttf);
+}
+
+.logo img{
+    width: 40%;
+    height: 30vh;
+    border: none;
+    border-radius: 50px 20px 50px 20px;
+  margin-top: 2%;
+  margin-left: 20%;
+  box-shadow: 13px 15px 15px -8px rgb(189, 189, 189);
+}
+
+.book-title {
+  margin-left: 5%;
+  margin-top: 5%;
+  font-size: 30px;
+text-align: center;
+color: rgb(80,80,80);
+}
+.book-description img{
+  width: 23%;
+  height: 40vh;
+
+}
+.social-links {
+    margin-top: 1rem;
     display: flex;
-    justify-content: space-evenly;
-   
- }
+    justify-content: center;
+    gap: clamp(1rem, 2vw, 1.5rem);
+}
+.social-links a {
+    color:white;
+    font-size: clamp(1.2rem, 3vw, 1.8rem);
+    transition: color 0.3s;
+}
+.social-links a:hover {
+    color: #FF6F61;
+}
+.social2-links {
+  margin-top: 1rem;
+  display: flex;
+  margin-left: 19%;
+  gap: clamp(1rem, 2vw, 1.5rem);
+}
+.social2-links a {
+  color:brown;
+  font-size: clamp(1.2rem, 3vw, 1.8rem);
+  transition: color 0.3s;
+}
+.social2-links a:hover {
+  color: #FF6F61;
+}
+.book-description{
+  display: flex;
+  gap: 5%;
+  line-height: 50px;
+  margin-left: 18%;
+  margin-top: 5%;
+}
+.book-description span{
+color:black;
+
+font-size: 28px;
+}
+.book-description p{
+  font-size: 23px;
+  color: rgb(34,36,48);
+}
+.description-text{
+  margin-top: 1%;
+
+}
+.text{
+ font-family: "poppins";
+  margin-left:20%;
+  margin-top: 4%;
+  font-size: 20px;
+  width: 70%;
+  font-family: 'Montserrat', sans-serif;
+  margin-right: 30%;
  
- 
- .qoutes p{
-    font-size: xx-large;
-    color: white;
-    text-align: justify;
- }
- 
- 
- .qoutes h6{
-    font-size: 20px;
-    color: white;
- }
- 
- 
- .summary{
-  background-color: rgb(164, 184, 226);
+}
+.book-image img{
+   width: 30%; 
+   height: 40vh;
+   margin-left: 35%;
+   border: none;
+   border-radius: 30px;
+   box-shadow: 20px 10px 10px 2px rgb(216, 209, 209);
+}
+.footer-content{
+  margin-top: 5%;
+}
+.footer-content p{
+  font-size: 25px;
+  font-family: typewriter;
+  color: brown;
+  margin-left: 20%;
+}
+.footer-images{
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  margin-top: 5%;
+
+}
+.footer-images img{
+  width: 10%;
+  border: none;
+  border-radius: 10px;
+
+}
+footer{
+margin-top: 2%;
+height: 100%;
+background-color: rgb(80,80,80);
+}
+.copyright p{
+  margin-left: 40%;
+  color:white;
+}
+.newsletter-form {
+  max-width: 400px;
+ margin-top: 3%;
+  margin-left:13% ;
+  padding: 20px;
+  border: 2px solid #333;
+  border-radius: 8px;
+  background-color: #f7f7f7;
+  font-family: Arial, sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.heading {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.newsletter-form h2 {
+  margin-top: 0;
+  color: #333;
+  font-size: 24px;
+}
+
+.newsletter-form label {
+  display: block;
+  font-weight: bold;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.newsletter-form input[type="email"] {
   width: 100%;
-  height: 48vw;
- }
- .summary p{
-    background-color: white;
-    position: absolute;
-    padding: 40px 40px 210px 40px;
-    font-size: 20px;
-    border-radius: 15px;
-    left: 15cm;
-    top: 38cm;
- 
- 
- }
- 
- 
- .summary button{
-    background-color:rgb(69, 123, 155);;
-    color: black;
-    border-radius: 28px;
-    padding: 15px;
-    border-color: rgb(69, 123, 155);
-    position: absolute;
-    left: 22cm;
-    top: 47cm;
-    width: 10vw;
-    font-size: 15px;
- }
- 
- 
- 
- 
- .summary button:hover{
-    transform: scale(2s);
-    color :black;
-    background-color: white;
- }
- 
- 
- .books{
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.newsletter-form input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #ff6600;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.newsletter-form input[type="submit"]:hover {
+  background-color: #ff8533;
+}
+.sections{
+  display: flex;
+}
+
+.right-section{
+  width: 40%;
+  margin-top: -18%;
+  margin-left: -5%;
+}
+.left-section{
+  width: 70%;
+}
+.mag-book{
+  display: flex;
+  flex-direction: column;
+  margin-left: 35%;
+}
+.magret-book img{
+  width: 50%;
+margin-top: 20%;
+}
+.author-image img{
+  width: 200px;
+  height: 200px;
+  border: none;
+  border-radius: 150px;
+}
+.author-image{margin-left: 15%;}
+.author-image p{
+  margin-left: -6%;
+  font-size: 20px;
+  font-family: poppins;
+}
+.magret-book p{
+  margin-left: 10%;
+}
+.mag-book span{
+  color:brown;
+  font-size: 20px;
+}
+.magret-book p{
+  color: black;
+  font-size: 20px;
+}
+.quote{
+  text-align: center;
+  font-size: 20px;
+  font-family: poppins;
+}
+.quote span{
+  color: brown;
+}
+.navbar{
+  background-color: rgb(80,80,80);
+  padding: 30px;
+  display: flex;
+  justify-content: flex-end;
+  word-spacing: 20px;
+  position: sticky;
+  z-index: 999;
+  top: 0;}
+  a{
+      text-decoration: none;
+      word-spacing: 20px;
+      font-size: 15px;
+      color:white;
+  }
+  a:hover{
+      transform: scale(2s);
+      color :white;
+  }
+  .nav {
     display: flex;
-   background-color: #417aa0;
- 
- 
- }
- 
- 
- .books img{
-    width: 20vw;
-    height: 60vh;
-    padding: 3%;
-   
- }
- 
- 
- .issues{
-    background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.5)), url("photos/trevorphoto.jpg");
-    background-repeat: repeat;
-    /* background-color: blue; */
-    background-size: cover;
-    height: 230vh;
- }
- 
- 
- .issue1{
-    background-color: whitesmoke;
-    color:rgb(80,80,80) ;
-    position: absolute;
-    padding: 40px;
-    left: 5cm;
-    top: 75cm;
-    font-size: 20px;
-    border-radius: 13px;
- }
- 
- 
- .issue2{
-    background-color: whitesmoke;
-    position: absolute;
-    padding: 40px;
-    left: 10cm;
-    top: 85cm;
-    font-size: 20px;
-    color:rgb(80,80,80) ;
-    border-radius: 13px;
- }
- 
- 
- .issue3{
-    background-color: whitesmoke;
-    position: absolute;
-    padding: 40px;
-    left: 15cm;
-    top: 97cm;
-    font-size: 20px;
-    color:rgb(80,80,80) ;
-    border-radius: 13px;
- }
- 
- 
- .issue4{
-    background-color: whitesmoke;
-    position: absolute;
-    padding: 40px;
-    left: 20cm;
-    top: 106cm;
-    font-size: 20px;
-    color:rgb(80,80,80) ;
-    border-radius: 13px;
- }
- 
- 
- .issue5{
-    background-color: whitesmoke;
-    position: absolute;
-    padding: 40px;
-    left: 25cm;
-    top: 119cm;
-    font-size: 20px;
-    color:rgb(80,80,80) ;
-    border-radius: 13px;
- }
- 
- 
- .phrases{
-    display: flex;
-    background-color: rgb(58, 111, 172);
- }
- 
- 
- .phrases img{
-    width: 30vw;
-    height: 70vh;
-    padding: 130px 30px 130px 30px;
-    border-radius: 10px;
- }
- 
- 
- /*
- .invite{
-    position: absolute;
-    left: 30cm;
-    background-color: rgb(25, 78, 128);
-    width: 40.2vw;
-    height: 100vh;
- 
- 
- 
- 
- }
- 
- 
- .invite h1{
-    color: white;
-    padding: 130px 130px 0px 130px;
-    font-size: 40px;
- }
- 
- 
- .invite p{
-    color: white;
-    padding: 10px;
-    font-size: 20px;
- } */
- /*
- .invite button{
-    padding: 20px;
-    font-size: 13px;
-    position: absolute;
-    top: 11cm;
-    right: 8cm;
- }
- 
- 
- .invite button:hover{
-    color: black;
-    background-color:rgb(226, 207, 207);
-    transition: 0.7s;
- } */
- 
- 
- .invitation{
-    display: flex;
+    width: 50%;
+        gap: 3%;
+        border: none;
+        position: sticky;
+        z-index: 1100;
+        display: flex;
+        width: 100%;
+        height: 70px;
+        align-items: center;
+        background-color: rgb(80,80,80);
+      }
+      .nav span a{
+        font-size: 20px;
+        color: white;
+      }
+     nav i {
+        font-size: 18;
+        color: white;
+      }
+.nav a {
+        text-decoration: none;
+        font-size: 15px;
+        color: white;
+        font-family: poppins;
+      }
+     
+    .dropdown {
+      position: relative;
+      display: inline-block;
     }
- .inviteimg{
-    background-image: url(" photos/NOVEL13.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-     width: 49vw;
-     height: 45vw;
- }
- .invite{
-    background-color: rgb(25, 78, 128);
-    width: 49vw;
-     height: 45vw;
-     /* padding-top: 0px; */
-     padding-left: 100px;
-     h1{
-        display: flex;
-        justify-content: right;
-        font-size: 50px;
-        color: white;
-        padding-top: 300px;
-        text-align: left;
-        padding-right: 70px;
-     }
-     p{
-        display: flex;
-        justify-content: center;
-        font-size: xx-large;
-        color: white;
-        text-align: center;
-     }
- 
- 
- 
- 
- 
- 
- }
- .invite button{
-    padding: 20px;
-    font-size: x-large;
-    color:rgb(25, 78, 128) ;
-    border-radius: 10px;
-  
-  
-   
- }
- .but{
-  padding-left: 300px;
-  padding-top: 100px;
- 
- 
- }
- 
- 
- .invite button:hover{
-    color: aqua;
-    background-color:rgb(226, 207, 207);
-    transition: 0.7s;
- }
+    
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 260px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+      border: none;
+      border-radius: 30px;
+    }
+    
+    .dropdown-content a {
+      border: solid 1px grey;
+      color: white;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      background-color: black;
+    }
+    
+    .dropdown:hover .dropdown-content {
+      background-color: white;
+      display: block;
+    }
+    .header-icons{
+      display: flex;
+      margin-left: 23%;
+  }
+  .header-icons i{
+      font-size: 23px;
+      text-decoration: none;
+      color:white; 
+  }
+  .social_icons{
+    display: flex;
+    margin-left: 70%;
+    gap: 35%;
+}
